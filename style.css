@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Bagian Pertama (Pengenalan Singkat)*/
+.begin {
+    background-color: hsl(0, 0%, 14%);
+    padding-bottom: 15%;
+    padding-top: 13%;
+}
+
+.about-me {
+    background-color: black;
+    border: 2px solid black;
+    box-shadow: 0 0 5px black,
+                0 0 25px black;
+
+    width: 60%;
+    border-radius: 20px;
+
+    margin-left: 17%;
+    margin-right: 20%;
+    padding: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+#my-images1 {
+    width: 300px;
+    border-radius: 30px;
+}
+
+.about-me-text {
+    margin-left: 3%;
+    margin-bottom: 5%;
+}
+
+.about-me h1 {
+    color: white;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-stretch: ultra-expanded;
+
+    margin-bottom: 3%;
+}
+
+.about-me p {
+    color: white;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Bagian Kedua (About Skill)*/
+.second {
+    background-color: rgb(241, 241, 241);
+
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.about-skill-text {
+    position: relative;
+    margin-left: 800px;
+    bottom: 670px;
+}
+
+.about-skill-text h1 {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+}
+
+.about-skill-text dt {
+    color: black;
+    font-weight: bold;
+
+    position: relative;
+    top: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+}
+
+.about-skill-text dd {
+    color: black;
+
+    position: relative;
+    top: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    width: 80%;
+}
+
+#my-images2 {
+    border: 2px solid rgb(97, 97, 97);
+    box-shadow: 0 0 5px rgb(97, 97, 97),
+                0 0 25px rgb(97, 97, 97);
+
+    width: 500px;
+    position: relative;
+
+    top: 10px;
+    bottom: 10px;
+    left: 250px;
+}
+
+/* Bagian Ketiga (Contact)*/
+.end {
+    background-color: hsl(0, 0%, 83%);
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+}
+
+.contact h1 {
+    font-weight: bold;
+    font-family: 'Roboto' sans-serif;
+}
+
